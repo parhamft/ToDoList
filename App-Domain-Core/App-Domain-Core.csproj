@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>App_Domain_Core</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ToDoList\Configs\AppServices\" />
+    <Folder Include="ToDoList\Configs\Data\" />
+    <Folder Include="ToDoList\Configs\DTO\" />
+    <Folder Include="ToDoList\Configs\Enums\" />
+    <Folder Include="ToDoList\Configs\Services\" />
+    <Folder Include="ToDoList\Tasks\AppServices\" />
+    <Folder Include="ToDoList\Tasks\Data\" />
+    <Folder Include="ToDoList\Tasks\DTO\" />
+    <Folder Include="ToDoList\Tasks\Enums\" />
+    <Folder Include="ToDoList\Tasks\Services\" />
+    <Folder Include="ToDoList\Users\AppServices\" />
+    <Folder Include="ToDoList\Users\Data\" />
+    <Folder Include="ToDoList\Users\DTO\" />
+    <Folder Include="ToDoList\Users\Enums\" />
+    <Folder Include="ToDoList\Users\Services\" />
+  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.1" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
+	</ItemGroup>
+
+</Project>
